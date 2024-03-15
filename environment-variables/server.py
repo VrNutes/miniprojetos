@@ -1,15 +1,19 @@
+"""
+importation of python-dotenv library that loads the environment variables into
+python environment variables
+"""
 from dotenv import load_dotenv, find_dotenv
 
-
+# search for .env file that must contains the environment variables preset
 if not find_dotenv():
-    print("Please use the command 'cp .env.example .env' and rerun the command'")
-    exit()
+    print("Please use the command 'cp .env.example .env' and rerun the command'") # write message on stdout
+    exit() # exit application
 
 load_dotenv(
     dotenv_path=find_dotenv(), # Absolute or relative path to .env file.
     stream=None, # Text stream (such as io.StringIO) with .env content, used if dotenv_path is None.
     verbose=None, # Whether to output a warning the .env file is missing.
-    override=None,
+    override=None, # If already loaded environment variable, override the value of variable with .env content.
     interpolate=True,
     encoding="utf-8", # Encoding to be used to read the file.
 ) # Returns Bool: True if at least one environment variable is set else False;
