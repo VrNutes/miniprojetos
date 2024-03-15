@@ -4,6 +4,6 @@
 
 ## Where should i begin
 - first of all, docker does not came with the OS, so we need to install, you can find a proper install guide on official [docs](https://docs.docker.com/engine/install/ubuntu/).
-- lets go, learn more about [docker structure](./docker_structure.md).
-- well, it is time to learn the basic info commands [file_link](./info_commands.sh)
-- it is time to learn about [docker-compose](./docker_compose.md)
+- lets go, learn more about [docker structure](./STRUCTURE.md).
+- well, it is time to learn the basic info commands [file_link](./INFO_COMMANDS.sh)
+- it is time to learn about [docker-compose](./DOCKER_COMPOSE.md)
