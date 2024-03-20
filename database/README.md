@@ -5,3 +5,4 @@
 
 - lets begin to develop our own database client, choose a option:
     - [mongodb](./mongodb/README.md)
+    - [sqlite3](./sqlite3/README.md)
