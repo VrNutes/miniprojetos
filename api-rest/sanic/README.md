@@ -6,3 +6,6 @@
 pip install -r requirements.txt
 ```
 - there is a [python script](./server.py) that creates a API REST web server
+- resolve challenge of [CHALLENGE.md](./CHALLENGE.md)
+## Challenges solved
+- By [GabrielGuedesSilva](https://github.com/GabrielGuedesSilva/api-petshop)
