@@ -1,8 +1,8 @@
-## Why should i learn
-- It is a way to hold information between application restarts and more long
+## Why should I learn?
+- It is a way to retain information between application restarts and for longer periods.
 
-## Where should i begin
+## Where should I begin?
 
-- lets begin to develop our own database client, choose a option:
-    - [mongodb](./mongodb/README.md)
-    - [sqlite3](./sqlite3/README.md)
+- Let's begin by developing our own database client. Choose an option:
+    - [MongoDB](./mongodb/README.md)
+    - [SQLite3](./sqlite3/README.md)

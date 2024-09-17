@@ -1,6 +1,6 @@
 # Docker
 
-Shows geral informations about the docker
+Shows general information about Docker
 ```sh
 docker info
 ```
